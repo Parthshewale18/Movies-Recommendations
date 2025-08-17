@@ -50,6 +50,8 @@ Click Recommend.
 View the top 10 recommended movies with posters in a 2×5 grid.
 
 📸 Example:
+
+
 <img width="561" height="627" alt="Capture" src="https://github.com/user-attachments/assets/121cda92-98a8-4fea-ac84-90720f8f77c8" />
 
 
