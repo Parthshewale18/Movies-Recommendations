@@ -15,7 +15,7 @@ def get_recommendations(title,cosine_sim=cosine_sim):
     return movies[['title','movie_id']].iloc[movies_indices]
 
 def fetch_poster(movie_id):
-    api_key = "91e2789b04b42a273bf366676bd644d7"
+    api_key = "Enter your APL KEY"
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}"
     response = requests.get(url)
     data = response.json()
